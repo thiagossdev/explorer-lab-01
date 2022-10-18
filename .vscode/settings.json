@@ -21,9 +21,9 @@
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.enable": true,
-  "prettier.singleQuote": false,
+  "prettier.singleQuote": true,
   "prettier.tabWidth": 2,
-  "prettier.semi": false,
+  "prettier.semi": true,
 
   // terminal
   "terminal.integrated.fontSize": 16,
