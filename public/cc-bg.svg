@@ -1,34 +1,181 @@
-<svg width="364" height="233" viewBox="0 0 364 233" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_b_48_3)">
-<rect x="2" y="1.31352" width="360" height="230" rx="15.1928" fill="url(#paint0_linear_48_3)"/>
-<rect x="1.36697" y="0.680488" width="361.266" height="231.266" rx="15.8259" stroke="url(#paint1_radial_48_3)" stroke-width="1.26607"/>
-<rect x="1.36697" y="0.680488" width="361.266" height="231.266" rx="15.8259" stroke="url(#paint2_linear_48_3)" stroke-opacity="0.4" stroke-width="1.26607"/>
-<rect x="1.36697" y="0.680488" width="361.266" height="231.266" rx="15.8259" stroke="url(#paint3_linear_48_3)" stroke-width="1.26607"/>
-</g>
-<defs>
-<filter id="filter0_b_48_3" x="-22.1752" y="-22.8616" width="408.35" height="278.35" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feGaussianBlur in="BackgroundImage" stdDeviation="11.4545"/>
-<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_48_3"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_48_3" result="shape"/>
-</filter>
-<linearGradient id="paint0_linear_48_3" x1="2" y1="1.31352" x2="130.405" y2="323.589" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.4"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<radialGradient id="paint1_radial_48_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2 1.31352) rotate(32.5741) scale(427.2 269.348)">
-<stop stop-color="white" stop-opacity="0.7"/>
-<stop offset="0.677083" stop-color="#B691FF" stop-opacity="0.4"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</radialGradient>
-<linearGradient id="paint2_linear_48_3" x1="351.951" y1="227.48" x2="316.94" y2="83.5003" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.32"/>
-<stop offset="0.140625" stop-color="#F9FFF5"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint3_linear_48_3" x1="357.631" y1="3.05595" x2="323.401" y2="147.961" gradientUnits="userSpaceOnUse">
-<stop stop-color="#53555E"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="364"
+   height="233"
+   viewBox="0 0 364 233"
+   fill="none"
+   version="1.1"
+   id="svg1132"
+   sodipodi:docname="cc-bg.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1134"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="3.3983516"
+     inkscape:cx="148.89572"
+     inkscape:cy="116.52708"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1132" />
+  <rect
+     x="2"
+     y="1.31352"
+     width="360"
+     height="230"
+     rx="15.1928"
+     fill="url(#paint0_linear_48_3)"
+     id="rect1087"
+     style="fill:url(#paint0_linear_48_3);filter:url(#filter0_b_48_3)" />
+  <rect
+     x="1.3669699"
+     y="0.68048799"
+     width="361.26599"
+     height="231.26601"
+     rx="15.8259"
+     stroke="url(#paint1_radial_48_3)"
+     stroke-width="1.26607"
+     id="rect1089"
+     style="stroke:url(#paint1_radial_48_3);filter:url(#filter0_b_48_3)" />
+  <rect
+     x="1.3669699"
+     y="0.68048799"
+     width="361.26599"
+     height="231.26601"
+     rx="15.8259"
+     stroke="url(#paint2_linear_48_3)"
+     stroke-opacity="0.4"
+     stroke-width="1.26607"
+     id="rect1091"
+     style="stroke:url(#paint2_linear_48_3);filter:url(#filter0_b_48_3)" />
+  <rect
+     x="1.3669699"
+     y="0.68048799"
+     width="361.26599"
+     height="231.26601"
+     rx="15.8259"
+     stroke="url(#paint3_linear_48_3)"
+     stroke-width="1.26607"
+     id="rect1093"
+     style="stroke:url(#paint3_linear_48_3);filter:url(#filter0_b_48_3)" />
+  <defs
+     id="defs1130">
+    <filter
+       id="filter0_b_48_3"
+       x="-22.1752"
+       y="-22.8616"
+       width="408.35"
+       height="278.35"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood1097" />
+      <feGaussianBlur
+         in="BackgroundImage"
+         stdDeviation="11.4545"
+         id="feGaussianBlur1099" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="effect1_backgroundBlur_48_3"
+         id="feComposite1101" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_backgroundBlur_48_3"
+         result="shape"
+         id="feBlend1103" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_48_3"
+       x1="2"
+       y1="1.31352"
+       x2="130.405"
+       y2="323.589"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="white"
+         stop-opacity="0.4"
+         id="stop1106" />
+      <stop
+         offset="1"
+         stop-color="white"
+         stop-opacity="0"
+         id="stop1108" />
+    </linearGradient>
+    <radialGradient
+       id="paint1_radial_48_3"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(359.99967,230.00017,-145.01424,226.97844,2,1.31352)">
+      <stop
+         stop-color="white"
+         stop-opacity="0.7"
+         id="stop1111" />
+      <stop
+         offset="0.677083"
+         stop-color="#B691FF"
+         stop-opacity="0.4"
+         id="stop1113" />
+      <stop
+         offset="1"
+         stop-color="white"
+         stop-opacity="0"
+         id="stop1115" />
+    </radialGradient>
+    <linearGradient
+       id="paint2_linear_48_3"
+       x1="351.951"
+       y1="227.48"
+       x2="316.94"
+       y2="83.5003"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="white"
+         stop-opacity="0.32"
+         id="stop1118" />
+      <stop
+         offset="0.140625"
+         stop-color="#F9FFF5"
+         id="stop1120" />
+      <stop
+         offset="1"
+         stop-color="white"
+         stop-opacity="0"
+         id="stop1122" />
+    </linearGradient>
+    <linearGradient
+       id="paint3_linear_48_3"
+       x1="357.631"
+       y1="3.05595"
+       x2="323.401"
+       y2="147.961"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#53555E"
+         id="stop1125" />
+      <stop
+         offset="1"
+         stop-color="white"
+         stop-opacity="0"
+         id="stop1127" />
+    </linearGradient>
+  </defs>
 </svg>
