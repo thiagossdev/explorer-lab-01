@@ -21,11 +21,29 @@ function setCardType(type) {
   ccLogo.setAttribute('src', `cc-${type}.svg`);
 }
 
+function updateSecurityCode(code) {
+  const ccSecurity = document.querySelector('.cc-security .value');
+  ccSecurity.innerText = code.length > 0 ? code : '123';
+}
+
+function updateCardNumber(number) {
+  const ccNumber = document.querySelector('.cc-number');
+  ccNumber.innerText = number.length > 0 ? number : '1234 5678 9012 3456';
+}
+
+function updateExpirationDate(date) {
+  const ccSecurity = document.querySelector('.cc-extra .value');
+  ccSecurity.innerText = date.length > 0 ? date : '02/32';
+}
+
 const securityCode = document.querySelector('#security-code');
 const securityCodePattern = {
   mask: '0000',
 };
 const securityCodeMasked = IMask(securityCode, securityCodePattern);
+securityCodeMasked.on('accept', () => {
+  updateSecurityCode(securityCodeMasked.value);
+});
 
 const expirationDate = document.querySelector('#expiration-date');
 const expirationDatePattern = {
@@ -44,6 +62,9 @@ const expirationDatePattern = {
   },
 };
 const expirationDateMasked = IMask(expirationDate, expirationDatePattern);
+expirationDateMasked.on('accept', () => {
+  updateExpirationDate(expirationDateMasked.value);
+});
 
 const cardNumber = document.querySelector('#card-number');
 const cardNumberPattern = {
@@ -69,10 +90,29 @@ const cardNumberPattern = {
     const foundMask = dynamicMasked.compiledMasks.find((m) =>
       numbers.match(m.regex)
     );
-    setCardType(foundMask.cardType);
     return foundMask;
   },
 };
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern);
+cardNumberMasked.on('accept', () => {
+  setCardType(cardNumberMasked.masked.currentMask.cardType);
+  updateCardNumber(cardNumberMasked.value);
+});
+
+const addCardButton = document.querySelector('#add-card');
+addCardButton.addEventListener('click', (event) => {
+  alert('Cartão adicionado!');
+});
+
+document.querySelector('form').addEventListener('submit', (event) => {
+  event.preventDefault();
+});
+
+const cardHolder = document.querySelector('#card-holder');
+cardHolder.addEventListener('input', () => {
+  const ccHolder = document.querySelector('.cc-holder .value');
+  ccHolder.innerText =
+    cardHolder.value.length > 0 ? cardHolder.value : 'FULANO DA SILVA';
+});
 
 globalThis.setCardType = setCardType;
